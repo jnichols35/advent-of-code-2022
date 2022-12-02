@@ -45,14 +45,6 @@ for line in rps:
 print(f"Part 1: {score}")
 
 
-'''
-A = rock
-B = paper
-C = scissor
-X = rock
-Y = paper
-Z = scissor
-'''
 score = 0
 rps = (open(data, "r").read()).split("\n")
 for line in rps:
